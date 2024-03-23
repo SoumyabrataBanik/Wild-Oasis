@@ -10,22 +10,36 @@ export default function useBookings() {
     {filed: "totalPrice", value: 5000, method: "lte"},
   ]*/
 
+  // FILTER:
   const filterValue = searchParams.get("status");
   const filter =
     !filterValue || filterValue === "all"
       ? null
       : { field: "status", value: filterValue, method: "eq" };
       // : { field: "totalPrice", value: 5000, method: "lte" };
-      
+  
+  
+  // SORT:
+  const sortByRaw = searchParams.get("sort-by") || "startDate-desc";
+  const [field, direction] = sortByRaw.split("-");
+  const sortBy = { field, direction }
+
+  //PAGINATION:
+  const page = !searchParams.get("page")
+    ? 1
+    : Number(searchParams.get("page"));
 
   const {
     isLoading,
-    data: bookings,
+    data: queryData,
     error,
   } = useQuery({
-    queryKey: ["bookings", filter],
-    queryFn: () => getBookings({ filter }),
+    queryKey: ["bookings", filter, sortBy, page],
+    queryFn: () => getBookings({ filter, sortBy, page }),
   });
 
-  return { isLoading, bookings, error };
+  const bookings = queryData?.data ? queryData.data : [];
+  const count = queryData?.count ? queryData.count : 0;
+
+  return { isLoading, bookings, count, error };
 }
