@@ -3,9 +3,9 @@
 export const guests = [
   {
     // id: 1000,
-    fullName: 'Jonas Schmedtmann',
+    fullName: 'Soumyabrata Banik',
     email: 'hello@jonas.io',
-    nationality: 'Portugal',
+    nationality: 'India',
     nationalID: '3525436345',
     countryFlag: 'https://flagcdn.com/pt.svg',
   },

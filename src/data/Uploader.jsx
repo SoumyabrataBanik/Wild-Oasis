@@ -1,8 +1,8 @@
 import { isFuture, isPast, isToday } from 'date-fns';
 import { useState } from 'react';
-import supabase from 'services/supabase';
-import Button from 'ui/Button';
-import { subtractDates } from 'utils/helpers';
+import supabase from '../services/supabase';
+import Button from '../ui/Button';
+import { subtractDates } from '../utils/helpers';
 import { bookings } from './data-bookings';
 import { cabins } from './data-cabins';
 import { guests } from './data-guests';
@@ -99,7 +99,7 @@ async function createBookings() {
   if (error) console.log(error.message);
 }
 
-export function Uploader() {
+export default function Uploader() {
   const [isLoading, setIsLoading] = useState(false);
 
   async function uploadAll() {
