@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
 const ButtonIcon = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
   background: none;
   border: none;
   padding: 0.6rem;

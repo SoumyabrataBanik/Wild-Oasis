@@ -16,7 +16,7 @@ export default function BookingTable() {
 
   return (
     <Menus>
-      <Table columns="0.6fr 2fr 2.4fr 1.4fr 1fr 3.2fr">
+      <Table columns="0.6fr 2.4fr 3fr 1.4fr 1fr 1fr">
         <Table.Header>
           <div>Cabin</div>
           <div>Guest</div>
