@@ -5,10 +5,11 @@ import FormRow from "../../ui/FormRow";
 import Input from "../../ui/Input";
 import { useLogin } from "./useLogin";
 import SpinnerMini from "../../ui/SpinnerMini";
+import CabinTable from "../cabins/CabinTable";
 
 function LoginForm() {
   const { login, isLoggingIn } = useLogin();
-  const [email, setEmail] = useState("soumya@example.com");
+  const [email, setEmail] = useState("admin@example.com");
   const [password, setPassword] = useState("password");
 
   function handleSubmit(e) {
@@ -51,6 +52,7 @@ function LoginForm() {
           {!isLoggingIn ? "Login" : <SpinnerMini />}
         </Button>
       </FormRow>
+
     </Form>
   );
 }
