@@ -39,8 +39,8 @@ To log into the website, use the following credentials:
 
 - **Email**: admin@example.com
 - **Password**: password
-- 
-Please note that the sign-up page is accessible only to users authorized by the Admin.
+  
+**Please note that the sign-up page is accessible only to users authorized by the Admin.**
 
 ## How to get access to the website
 
