@@ -39,8 +39,22 @@ To log into the website, use the following credentials:
 
 - **Email**: admin@example.com
 - **Password**: password
-
+- 
 Please note that the sign-up page is accessible only to users authorized by the Admin.
+
+## How to get access to the website
+
+One way to get access to the website is to simply follow the steps below:
+**Step 1:** Clone the repository to a local folder in your PC. 
+**Step 2:** Once cloned, head to the local folder and open it in terminal. 
+**Step 3:** Run the command ```npm install```. Being a Linux user, I sometimes faced problems when running the command on my PC. If you face the same problem on Linux, please use: ```sudo npm install --unsafe-perm=true --allow-root```. Wait for the important dependancies to be downloaded.
+**Step 4:** After the dependancies are downloaded, in the same terminal run ```npm run dev```.
+
+**This should give you access to the website on a Localhost, usually ```localhost:5173```.
+
+## Another way to access the website
+
+In case you do not want to work extra hard with the repository and just want a simple demo. Then please visit this website deployed on netlify: [soumyabrata-banik-the-wild-oasis](https://soumyabrata-banik-the-wild-oasis.netlify.app/)
 
 # React + Vite
 
