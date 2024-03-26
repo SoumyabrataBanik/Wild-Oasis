@@ -1,3 +1,5 @@
+To login in, use the Email: admin@example.com and Password: password
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
