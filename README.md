@@ -54,7 +54,13 @@ One way to get access to the website is to simply follow the steps below:
 
 ## Another way to access the website
 
-In case you do not want to work extra hard with the repository and just want a simple demo. Then please visit this website deployed on netlify: [soumyabrata-banik-the-wild-oasis](https://soumyabrata-banik-the-wild-oasis.netlify.app/)
+In case you do not want to work extra hard with the repository and just want a simple demo. Then please visit this link deployed on netlify to see a demo of the website: [soumyabrata-banik-the-wild-oasis](https://soumyabrata-banik-the-wild-oasis.netlify.app/). 
+
+You can also visit the following vercel link to see the demo of the website: [soumyabrata-banik-the-wild-oasis](https://soumyabrata-banik-the-wild-oasis.vercel.app/). 
+
+## Downside of this website
+
+Unfortunately for some personal reason and also experimenting with Styled Components, I was not able to add responsivity to the site. **So, it is best to open this website on a Laptop or PC.**
 
 # React + Vite
 
