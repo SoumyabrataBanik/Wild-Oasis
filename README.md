@@ -17,6 +17,12 @@ This website has been built with the help of the Udemy course: ["The Ultimate Re
 5. **User Authentication**: Secure login and sign-up pages for employee authentication.
 6. **Dark Mode**: An interface that adapts to your system's settings for comfortable viewing.
 
+## Previews:
+
+![Login Page](</public/Screenshot from 2024-03-26 17-21-17.png>)
+![Dashboard](</public/Screenshot from 2024-03-26 17-22-08.png>)
+![Admin Page](</public/Screenshot from 2024-03-26 17-22-26.png>)
+
 ## Tech Stack
 
 The following technologies were used in this project:
