@@ -2,6 +2,8 @@
 
 This simple project is my first attempt at creating a frontend website with a working backend using React and Supabase.
 
+It is a React project bootstrapped using `npm create vite@latest`
+
 ## Disclaimer
 
 This website has been built with the help of the Udemy course: ["The Ultimate React Course 2024: React, Redux & More"](https://www.udemy.com/course/the-ultimate-react-course/) by Jonas Schmedtmann. I extend my gratitude to the instructor for his guidance throughout the development process.
@@ -48,7 +50,7 @@ To log into the website, use the following credentials:
   
 **Please note that the sign-up page is accessible only to users authorized by the Admin.**
 
-## How to get access to the website
+### How to get access to the website
 
 One way to get access to the website is to simply follow the steps below:
 **Step 1:** Clone the repository to a local folder in your PC. 
