@@ -53,9 +53,13 @@ To log into the website, use the following credentials:
 ### How to get access to the website
 
 One way to get access to the website is to simply follow the steps below:
+
 **Step 1:** Clone the repository to a local folder in your PC. 
+
 **Step 2:** Once cloned, head to the local folder and open it in terminal. 
+
 **Step 3:** Run the command ```npm install```. Being a Linux user, I sometimes faced problems when running the command on my PC. If you face the same problem on Linux, please use: ```sudo npm install --unsafe-perm=true --allow-root```. Wait for the important dependancies to be downloaded.
+
 **Step 4:** After the dependancies are downloaded, in the same terminal run ```npm run dev```.
 
 **This should give you access to the website on a Localhost, usually ```localhost:5173```.
